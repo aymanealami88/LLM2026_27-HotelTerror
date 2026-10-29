@@ -1,1 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Consulte las características y lista completa de precios de las habitaciones en Hotel Terror.">
+    <meta name="keywords" content="precios, habitaciones, hotel terror, tarifas, individual, doble, triple">
+    <meta name="author" content="Nombre y apellidos del estudiante">
+    <title>Hotel Terror - Característiques i Preus</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
 
+    <header>
+        <div class="logo-container">
+            <a href="index.html" title="Volver al inicio">
+                <div class="logo-icon">
+                    <span class="logo-letter">H</span>
+                    <span class="logo-stars">★★★★</span>
+                </div>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="precios.html" class="active">Precios</a></li>
+                <li><a href="reserva.html">Reserva</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content-container">
+            <h1 class="page-title"><span class="blue-highlight">Hotel Terror:</span> Característiques i Preus</h1>
+
+            <div class="table-wrapper">
+                <table class="prices-table">
+                    <thead>
+                        <tr>
+                            <th>Tipus d'Habitació</th>
+                            <th>Persones</th>
+                            <th>Característiques</th>
+                            <th>Preu</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Habitación Individual -->
+                        <tr>
+                            <td class="room-type">Habitació individual</td>
+                            <td><img src="img/individual.png" alt="1 persona"></td>
+                            <td>Lavabo compartit, 20m², Microones</td>
+                            <td>70 €</td>
+                        </tr>
+
+                        <!-- Habitación Doble -->
+                        <tr>
+                            <td rowspan="2" class="room-type">Habitació doble (1 o 2 cames)</td>
+                            <td>
+                                <div class="user-icon-stack">
+                                    <img src="img/individual.png" alt="Persona">
+                                    <img src="img/individual.png" alt="Persona">
+                                </div>
+                            </td>
+                            <td rowspan="2">Lavabo privat, 30m², Microones</td>
+                            <td>120 €</td>
+                        </tr>
+                        <tr class="sub-row">
+                            <td><img src="img/individual.png" alt="1 persona"></td>
+                            <td>90 €</td>
+                        </tr>
+
+                        <!-- Habitación Doble Superior -->
+                        <tr>
+                            <td class="room-type">Habitació doble superior</td>
+                            <td>
+                                <div class="user-icon-stack">
+                                    <img src="img/individual.png" alt="Persona">
+                                    <img src="img/individual.png" alt="Persona">
+                                </div>
+                            </td>
+                            <td>Lavabo privat, 35m², Zona de cuina, Cama doble</td>
+                            <td>140 €</td>
+                        </tr>
+
+                        <!-- Habitación Triple -->
+                        <tr>
+                            <td rowspan="3" class="room-type">Habitació triple (1, 2 o 3 cames)</td>
+                            <td>
+                                <div class="user-icon-stack">
+                                    <img src="img/individual.png" alt="Persona">
+                                    <img src="img/individual.png" alt="Persona">
+                                    <img src="img/individual.png" alt="Persona">
+                                </div>
+                            </td>
+                            <td rowspan="3">Lavabo privat, 40m², Zona de cuina</td>
+                            <td>150 €</td>
+                        </tr>
+                        <tr class="sub-row">
+                            <td>
+                                <div class="user-icon-stack">
+                                    <img src="img/individual.png" alt="Persona">
+                                    <img src="img/individual.png" alt="Persona">
+                                </div>
+                            </td>
+                            <td>130 €</td>
+                        </tr>
+                        <tr class="sub-row">
+                            <td><img src="img/individual.png" alt="1 persona"></td>
+                            <td>100 €</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4" class="table-footer-cell">
+                                Característiques comunes: WiFi gratuït / TV de pantalla plana / Aire acondicionat
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Activitat realitzada per <strong>Aymane Alami Ben Aissa</strong></p>
+        <div class="footer-credits">
+            <span>Fotografies de la portada <a href="https://unsplash.com/" target="_blank" rel="noopener">Unsplash</a></span>
+            <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">
+                <img src="img/creative-commons.png" alt="Licencia Creative Commons" class="cc-logo">
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>
